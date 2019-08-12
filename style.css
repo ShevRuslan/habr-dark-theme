@@ -1,0 +1,20 @@
+:root {
+    --dark-blue: rgb(37, 48, 60);
+    --blue: #2C3D4E;
+    --text-color: #C3CFE0;
+}
+* {
+    color: var(--text-color) !important;
+}
+.layout__elevator {
+    transition: all 0.3s ease-in-out
+}
+.layout__row_services #TMpanel,
+.layout__row_navbar,
+.layout__elevator:hover,
+.default-block {
+    background-color: var(--blue);
+} 
+.layout__row_body {
+    background-color: var(--dark-blue);
+}
