@@ -65,6 +65,7 @@ a.post__type-label:hover {
     background-color: transparent;
     color: var(--dark-orange);
 }
+.list-snippet__title-link, .list-snippet__fullname,
 .n-dropdown-menu__item-link_flow,
 .fonts-loaded .teaser__body-title,
 .news-block__title,
@@ -107,6 +108,7 @@ a.post__type-label:hover {
 .default-block__content {
     padding: 30px;
 }
+.list-snippet__nickname,
 .post__text-html font {
     color:var(--dark-orange)
 }
@@ -117,6 +119,7 @@ a.post__type-label:hover {
 .post__title_link:hover {
     color: var(--dark-orange);
 }
+
 .icon-svg_chevron_flows,
 .btn_flow-toggle .btn_inner,
 .user-info__nickname_small,
@@ -142,6 +145,17 @@ a.post__type-label:hover {
 .tabs-menu__item-text_active, .active .tabs-menu__item-text {
     color: #4d80aa !important;
 }
+.search-field__input[type=text] {
+    background-color: var(--blue);
+    border-color: var(--border-color);
+    color: var(--text-color);
+}
+.tags-cloud li a,
+.sidebar-block__paragraph,
+.sort-panel__item-toggler,
+.statistics-data__label,
+.list-snippet__desc, .list-snippet__lifetime,
+.fonts-loaded .page-header__title,
 .companies-rating__name,
 .tabs-menu__item-text,
 .post-info__meta-counter,
@@ -182,6 +196,7 @@ a.post__type-label,
 .layout__elevator {
     transition: all 0.4s ease-in-out
 }
+.sort-panel,
 .n-dropdown-menu_flows,
 .dropdown_active .dropdown-container,
 .toggle-menu__most-read,
