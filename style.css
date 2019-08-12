@@ -76,7 +76,6 @@ a.post__type-label:hover {
 .page-header__stats-value,
 .footer__link:hover,
 .footer__link,
-.footer-misprints,
 .footer-block__title,
 .promo-item__aside,
 .stacked-counter__value_magenta,
@@ -119,7 +118,7 @@ a.post__type-label:hover {
 .post__title_link:hover {
     color: var(--dark-orange);
 }
-
+.is-subscribed .list-snippet__title-link, .is-subscribed .list-snippet__fullname,
 .icon-svg_chevron_flows,
 .btn_flow-toggle .btn_inner,
 .user-info__nickname_small,
@@ -150,6 +149,9 @@ a.post__type-label:hover {
     border-color: var(--border-color);
     color: var(--text-color);
 }
+.comment-form__title,
+.footer-misprints,
+.sidebar-block__list>li,
 .tags-cloud li a,
 .sidebar-block__paragraph,
 .sort-panel__item-toggler,
@@ -196,6 +198,16 @@ a.post__type-label,
 .layout__elevator {
     transition: all 0.4s ease-in-out
 }
+.checkbox__label, .radio__label,
+.tm-editor__textarea {
+    color: var(--text-color);
+}
+.post__text-html table td, .post__text-html table th,
+.post__text-html table,
+.page-header_bordered,
+.tm-editor__textarea,
+.tabs-menu,
+.sandbox-panel,
 .sort-panel,
 .n-dropdown-menu_flows,
 .dropdown_active .dropdown-container,
@@ -228,6 +240,7 @@ a.post__type-label,
 .layout__row_navbar {
     border-color: var(--border-color);
 }
+.tm-editor_comments,
 .n-dropdown-menu_flows,
 .dropdown_active .dropdown-container,
 .megapost-teasers,
@@ -243,6 +256,8 @@ code,
 .default-block {
     background-color: var(--blue) !important;
 }
+.tm-editor__textarea,
+a.sort-panel__item-toggler.active,
 .toggle-menu__most-read, .toggle-menu_most-comments,
 .company-info__author,
 .toggle-menu__item-link,
