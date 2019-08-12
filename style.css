@@ -6,6 +6,10 @@
     --dark-orange: rgb(199, 149, 1);
     --border-color: rgba(105, 109, 125, 0.4);
 }
+.post__translatation-link:hover {
+    text-decoration: none;
+    color: var(--dark-orange);
+}
 .user-info__image-pic_small {
     border-radius: 50%;
 }
@@ -33,6 +37,13 @@
 .content-list_comments .comment__folding-dotholder {
     display: none !important;
 }
+.promo-item {
+    transition: 0.1s ease-in-out;
+}
+.promo-item:hover {
+    background-color: var(--blue);
+}
+.defination-list__label,
 .comment__date-time,
 .bmenu__label,
 #TMpanel .container .bmenu>a:hover,
@@ -50,6 +61,18 @@ a.post__type-label:hover {
 .post__text-html a  {
     transition: 0.1s ease-in-out;
 }
+.n-dropdown-menu__item-link_flow:hover {
+    background-color: transparent;
+    color: var(--dark-orange);
+}
+.n-dropdown-menu__item-link_flow,
+.fonts-loaded .teaser__body-title,
+.news-block__title,
+.fonts-loaded .news-topic__title,
+.stacked-menu__item-link,
+.post__title_link,
+.h-message__title,
+.page-header__stats-value,
 .footer__link:hover,
 .footer__link,
 .footer-misprints,
@@ -57,7 +80,6 @@ a.post__type-label:hover {
 .promo-item__aside,
 .stacked-counter__value_magenta,
 .user-info__nickname_doggy,
-.user-info__nickname_small,
 #TMpanel .container .bmenu>a,
 .post__text-html h1 a:hover, 
 .post__text-html h1 a:active, 
@@ -79,9 +101,33 @@ a.post__type-label:hover {
     color: var(--orange);
     text-decoration: none;
 }
+.company-links__title:hover {
+    color: var(--text-color) !important;
+}
 .default-block__content {
     padding: 30px;
 }
+.post__text-html font {
+    color:var(--dark-orange)
+}
+.post__text-html code {
+    padding: 1px 5px;
+    color: var(--dark-orange)
+}
+.post__title_link:hover {
+    color: var(--dark-orange);
+}
+.icon-svg_chevron_flows,
+.btn_flow-toggle .btn_inner,
+.user-info__nickname_small,
+.voting-wjt__counter_positive,
+.post-stats__comments-count_new,
+.news-topic__attr_comments-new,
+.companies-rating__rating,
+.stacked-menu__item-counter,
+.post__title_link:visited,
+.company-links__link,
+.page-header__stats-label,
 .footer-menu__item-link:hover,
 .footer-menu__item-link,
 .footer__copyright,
@@ -93,6 +139,20 @@ a.post__type-label:hover {
 .nav-links__item a:hover {
     color: var(--dark-orange);
 }
+.tabs-menu__item-text_active, .active .tabs-menu__item-text {
+    color: #4d80aa !important;
+}
+.companies-rating__name,
+.tabs-menu__item-text,
+.post-info__meta-counter,
+.news-topic__attr,
+.h-message__content,
+.company-links__title,
+.defination-list__value>a, .defination-list__link,
+.defination-list__value,
+.post__translatation-link,
+.page-header__info-desc,
+.fonts-loaded .page-header__info-title,
 .comment__message, .comment-form__preview,
 .comments-section__head *,
 .promo-item__title,
@@ -113,6 +173,7 @@ a.post__type-label:hover {
 .nav-links__item a,
 .post__text-html {
     color: var(--text-color);
+    text-decoration: none;
 }
 a.post__type-label,
 .btn_navbar_write-topic,
@@ -121,6 +182,21 @@ a.post__type-label,
 .layout__elevator {
     transition: all 0.4s ease-in-out
 }
+.n-dropdown-menu_flows,
+.dropdown_active .dropdown-container,
+.toggle-menu__most-read,
+.toggle-menu_most-comments,
+.toggle-menu,
+.news-block__footer,
+.news-block__header,
+.default-block__footer,
+.stacked-menu__item_devided,
+.fonts-loaded .post__title_link,
+.column-wrapper_bordered,
+.h-message,
+.company-info__contacts,
+.company-info_post-additional,
+.company-info__about,
 .footer-block__title,
 .comments-section__head,
 .promo-block__footer,
@@ -137,6 +213,11 @@ a.post__type-label,
 .layout__row_navbar {
     border-color: var(--border-color);
 }
+.n-dropdown-menu_flows,
+.dropdown_active .dropdown-container,
+.megapost-teasers,
+.company-info__about,
+.post__translatation,
 .post__text-html blockquote,
 .comment__head_topic-author,
 .promo-block__header,
@@ -147,9 +228,14 @@ code,
 .default-block {
     background-color: var(--blue) !important;
 }
+.toggle-menu__most-read, .toggle-menu_most-comments,
+.company-info__author,
 .toggle-menu__item-link,
 .layout__row,
 .post-share, 
 .layout__row_body {
     background-color: var(--dark-blue);
+}
+.toggle-menu__item-link {
+    margin: 0;
 }
