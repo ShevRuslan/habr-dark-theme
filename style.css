@@ -6,43 +6,55 @@
     --dark-orange: rgb(199, 149, 1);
     --border-color: rgba(105, 109, 125, 0.4);
 }
+
 .post__translatation-link:hover {
     text-decoration: none;
     color: var(--dark-orange);
 }
+
 .user-info__image-pic_small {
     border-radius: 50%;
 }
+
 .post__text-html code {
-    font-family: monospace,monospace
+    font-family: monospace, monospace
 }
+
 .post__tag:hover {
     color: var(--dark-orange);
 }
+
 .post__tag {
     color: var(--orange);
     transition: 0.2s;
 }
+
 .post__type-label,
 .post-info__meta-label {
     text-align: center;
     border: 1px dashed var(--orange);
 }
+
 #TMpanel .container .bmenu>a {
     transition: 0.5s ease-in-out;
 }
+
 #TMpanel .container .bmenu.slink>a {
     color: var(--orange) !important;
 }
+
 .content-list_comments .comment__folding-dotholder {
     display: none !important;
 }
+
 .promo-item {
     transition: 0.1s ease-in-out;
 }
+
 .promo-item:hover {
     background-color: var(--blue);
 }
+
 .defination-list__label,
 .comment__date-time,
 .bmenu__label,
@@ -51,26 +63,33 @@
 a.post__type-label:hover {
     color: var(--dark-orange);
 }
+
 .user-info__nickname_small,
 .inline-list__item_hub a,
-.post__text-html a, 
-.post__text-html a 
-.post__text-html a, 
-.post__text-html a, 
-.post__text-html a,  
-.post__text-html a  {
+.post__text-html a,
+.post__text-html a .post__text-html a,
+.post__text-html a,
+.post__text-html a,
+.post__text-html a {
     transition: 0.1s ease-in-out;
 }
+
 .n-dropdown-menu__item-link_flow:hover {
     background-color: transparent;
     color: var(--dark-orange);
 }
-.list-snippet__title-link, .list-snippet__fullname,
+
+.stacked-menu__item-link:hover span,
+.stacked-menu__item-link:hover {
+    text-decoration: none !important;
+}
+
+.list-snippet__title-link,
+.list-snippet__fullname,
 .n-dropdown-menu__item-link_flow,
 .fonts-loaded .teaser__body-title,
 .news-block__title,
 .fonts-loaded .news-topic__title,
-.stacked-menu__item-link,
 .post__title_link,
 .h-message__title,
 .page-header__stats-value,
@@ -81,17 +100,17 @@ a.post__type-label:hover {
 .stacked-counter__value_magenta,
 .user-info__nickname_doggy,
 #TMpanel .container .bmenu>a,
-.post__text-html h1 a:hover, 
-.post__text-html h1 a:active, 
-.post__text-html h2 a:hover, 
-.post__text-html h2 a:active, 
-.post__text-html h3 a:hover, 
-.post__text-html h3 a:active, 
-.post__text-html h4 a:hover, 
-.post__text-html h4 a:active, 
-.post__text-html h5 a:hover, 
-.post__text-html h5 a:active, 
-.post__text-html h6 a:hover, 
+.post__text-html h1 a:hover,
+.post__text-html h1 a:active,
+.post__text-html h2 a:hover,
+.post__text-html h2 a:active,
+.post__text-html h3 a:hover,
+.post__text-html h3 a:active,
+.post__text-html h4 a:hover,
+.post__text-html h4 a:active,
+.post__text-html h5 a:hover,
+.post__text-html h5 a:active,
+.post__text-html h6 a:hover,
 .post__text-html h6 a:active,
 .post__text-html a:hover,
 .post__text-html a:visited,
@@ -101,24 +120,27 @@ a.post__type-label:hover {
     color: var(--orange);
     text-decoration: none;
 }
+
 .company-links__title:hover {
     color: var(--text-color) !important;
 }
+
 .default-block__content {
     padding: 30px;
 }
+
 .list-snippet__nickname,
 .post__text-html font {
-    color:var(--dark-orange)
-}
-.post__text-html code {
-    padding: 1px 5px;
     color: var(--dark-orange)
 }
+
+
 .post__title_link:hover {
     color: var(--dark-orange);
 }
-.is-subscribed .list-snippet__title-link, .is-subscribed .list-snippet__fullname,
+
+.is-subscribed .list-snippet__title-link,
+.is-subscribed .list-snippet__fullname,
 .icon-svg_chevron_flows,
 .btn_flow-toggle .btn_inner,
 .user-info__nickname_small,
@@ -141,14 +163,20 @@ a.post__type-label:hover {
 .nav-links__item a:hover {
     color: var(--dark-orange);
 }
-.tabs-menu__item-text_active, .active .tabs-menu__item-text {
+
+.tabs-menu__item-text_active,
+.active .tabs-menu__item-text {
     color: #4d80aa !important;
 }
+
 .search-field__input[type=text] {
     background-color: var(--blue);
     border-color: var(--border-color);
     color: var(--text-color);
 }
+
+.hub-info__title,
+.stacked-menu__item-link,
 .comment-form__title,
 .footer-misprints,
 .sidebar-block__list>li,
@@ -156,7 +184,8 @@ a.post__type-label:hover {
 .sidebar-block__paragraph,
 .sort-panel__item-toggler,
 .statistics-data__label,
-.list-snippet__desc, .list-snippet__lifetime,
+.list-snippet__desc,
+.list-snippet__lifetime,
 .fonts-loaded .page-header__title,
 .companies-rating__name,
 .tabs-menu__item-text,
@@ -164,12 +193,14 @@ a.post__type-label:hover {
 .news-topic__attr,
 .h-message__content,
 .company-links__title,
-.defination-list__value>a, .defination-list__link,
+.defination-list__value>a,
+.defination-list__link,
 .defination-list__value,
 .post__translatation-link,
 .page-header__info-desc,
 .fonts-loaded .page-header__info-title,
-.comment__message, .comment-form__preview,
+.comment__message,
+.comment-form__preview,
 .comments-section__head *,
 .promo-item__title,
 .promo-block__title-link,
@@ -179,11 +210,11 @@ a.post__type-label:hover {
 .user-info__fullname,
 .user-info__specialization,
 .post-share__title,
-.post__text-html pre code,
 .inline-list__item_hub a,
 .post__time,
 .default-block__header h3,
-.post-info__title:visited, .post-info__title-link:visited,
+.post-info__title:visited,
+.post-info__title-link:visited,
 .fonts-loaded .post-info__title,
 .icon-svg_logo-habrahabr,
 .nav-links__item a,
@@ -191,6 +222,7 @@ a.post__type-label:hover {
     color: var(--text-color);
     text-decoration: none;
 }
+
 a.post__type-label,
 .btn_navbar_write-topic,
 .btn_navbar_search,
@@ -198,11 +230,15 @@ a.post__type-label,
 .layout__elevator {
     transition: all 0.4s ease-in-out
 }
-.checkbox__label, .radio__label,
+
+.checkbox__label,
+.radio__label,
 .tm-editor__textarea {
     color: var(--text-color);
 }
-.post__text-html table td, .post__text-html table th,
+
+.post__text-html table td,
+.post__text-html table th,
 .post__text-html table,
 .page-header_bordered,
 .tm-editor__textarea,
@@ -235,11 +271,11 @@ a.post__type-label,
 .author-panel,
 .default-block__header,
 .content-list__item_devided,
-.post__text-html pre code,
 .layout__row_services #TMpanel,
 .layout__row_navbar {
     border-color: var(--border-color);
 }
+
 .tm-editor_comments,
 .n-dropdown-menu_flows,
 .dropdown_active .dropdown-container,
@@ -249,23 +285,123 @@ a.post__type-label,
 .post__text-html blockquote,
 .comment__head_topic-author,
 .promo-block__header,
-code,
 .layout__row_services #TMpanel,
 .layout__row_navbar,
 .layout__elevator:hover,
 .default-block {
     background-color: var(--blue) !important;
 }
+
 .tm-editor__textarea,
 a.sort-panel__item-toggler.active,
-.toggle-menu__most-read, .toggle-menu_most-comments,
+.toggle-menu__most-read,
+.toggle-menu_most-comments,
 .company-info__author,
 .toggle-menu__item-link,
 .layout__row,
-.post-share, 
+.post-share,
 .layout__row_body {
     background-color: var(--dark-blue);
 }
+
 .toggle-menu__item-link {
     margin: 0;
+}
+
+/* *
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #61aeee
+hue-3:   #c678dd
+hue-4:   #98c379
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #e6c07b
+*/
+.post__text-html pre .hljs {
+    display: block;
+    overflow-x: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 0.5em;
+    color: #abb2bf;
+    background: #282c34;
+    border-color: var(--border-color); 
+    font-family: monospace, monospace !important;
+}
+
+.post__text-html pre .hljs-comment,
+.post__text-html pre .hljs-quote {
+    color: #5c6370;
+    font-style: italic;
+}
+
+.post__text-html pre .hljs-doctag,
+.post__text-html pre .hljs-keyword,
+.post__text-html pre .hljs-formula {
+    color: #c678dd;
+}
+
+.post__text-html pre .hljs-section,
+.post__text-html pre .hljs-name,
+.post__text-html pre .hljs-selector-tag,
+.post__text-html pre.hljs-deletion,
+.post__text-html pre .hljs-subst {
+    color: #e06c75;
+}
+
+.post__text-html pre .hljs-literal {
+    color: #56b6c2;
+}
+
+.post__text-html pre .hljs-string,
+.post__text-html pre .hljs-regexp,
+.post__text-html pre .hljs-addition,
+.post__text-html pre .hljs-attribute,
+.post__text-html pre .hljs-meta-string {
+    color: #98c379;
+}
+
+.post__text-html pre .hljs-built_in,
+.post__text-html pre .hljs-class .hljs-title {
+    color: #e6c07b;
+}
+
+.post__text-html pre .hljs-attr,
+.post__text-html pre .hljs-variable,
+.post__text-html pre .hljs-template-variable,
+.post__text-html pre .hljs-type,
+.post__text-html pre .hljs-selector-class,
+.post__text-html pre .hljs-selector-attr,
+.post__text-html pre .hljs-selector-pseudo,
+.post__text-html pre .hljs-number {
+    color: #d19a66;
+}
+
+.post__text-html pre .hljs-symbol,
+.post__text-html pre .hljs-bullet,
+.post__text-html pre .hljs-link,
+.post__text-html pre .hljs-meta,
+.post__text-html pre .hljs-selector-id,
+.post__text-html pre.hljs-title {
+    color: #61aeee;
+}
+
+.post__text-html pre .hljs-emphasis {
+    font-style: italic;
+}
+
+.post__text-html pre.hljs-strong {
+    font-weight: bold;
+}
+
+.post__text-html pre .hljs-link {
+    text-decoration: underline;
 }
