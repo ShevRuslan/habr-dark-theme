@@ -141,6 +141,7 @@ a.post__type-label:hover {
 .post__title_link:hover {
     color: var(--dark-orange);
 }
+.default-block__polling-title,
 .h-info h2:nth-child(n+2),
 .company-tweet__username:link,
 #tracker-page .tracker-table__cell.comment_count>a,
@@ -181,6 +182,7 @@ form .item input[type=password], form .item input[type=text], form .item input[t
     border-color: var(--border-color);
     color: var(--text-color);
 }
+.default-block__footer_polling,
 .footer-menu__item-link:hover,
 .footer-menu__item-link,
 .search-form__field,
@@ -304,6 +306,7 @@ form .item>label,
 .topic-form .blue_buttons_panel {
     padding-left: 0px;
 }
+.default_block_polling,
 .h-info table,
 .h-info table th, .h-info table td,
 .post-donate,
