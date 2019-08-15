@@ -85,6 +85,7 @@ a.post__type-label:hover {
 .stacked-menu__item-link:hover {
     text-decoration: none !important;
 }
+.h-info h3,
 .h-page__title,
 .list-snippet__title-link,
 .list-snippet__fullname,
@@ -140,6 +141,7 @@ a.post__type-label:hover {
 .post__title_link:hover {
     color: var(--dark-orange);
 }
+.h-info h2:nth-child(n+2),
 .company-tweet__username:link,
 #tracker-page .tracker-table__cell.comment_count>a,
 .topic-form form .item>label,
@@ -263,6 +265,10 @@ a.post__type-label,
     color: var(--text-color);
     border-color: var(--border-color);
 }
+.h-info table th, .h-info table td,
+.h-info,
+.h-info code,
+.h-info li, .h-info p,
 .comment__message p, .comment-form__preview p,
 .company-tweet__text,
 .post-donate__title,
@@ -296,6 +302,8 @@ form .item>label,
 .topic-form .blue_buttons_panel {
     padding-left: 0px;
 }
+.h-info table,
+.h-info table th, .h-info table td,
 .post-donate,
 .search-form__field,
 #tracker-page .tracker-table__cell,
@@ -358,6 +366,8 @@ form .item>label,
 .layout__row_navbar {
     border-color: var(--border-color);
 }
+.h-info table thead,
+.h-info code,
 .comment__head_new-comment,
 .search-form__field,
 .chosen-container-multi .chosen-choices,
