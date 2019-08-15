@@ -436,6 +436,7 @@ a.sort-panel__item-toggler.active,
     color: var(--text-color);
     border-color: var(--border-color);
 }
+.btn,
 .post-donate,
 .page-header__banner img,
 .post__text-html img,
