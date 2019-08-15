@@ -265,6 +265,8 @@ a.post__type-label,
     color: var(--text-color);
     border-color: var(--border-color);
 }
+.company-app__description,
+.company-app__title,
 .h-info table th, .h-info table td,
 .h-info,
 .h-info code,
@@ -417,6 +419,7 @@ a.sort-panel__item-toggler.active,
 .toggle-menu__item-link {
     margin: 0;
 }
+.company-app__image,
 .checkbox__label:before, .radio__label:before,
 .companies-rating__img,
 .social-icons__item-link,
