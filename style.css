@@ -57,14 +57,15 @@
 }
 .app-client__description,
 .defination-list__label,
-.comment__date-time,
 .bmenu__label,
 #TMpanel .container .bmenu>a:hover,
 #TMpanel .container .bmenu>a.current,
 a.post__type-label:hover {
     color: var(--dark-orange);
 }
-
+.comment__date-time {
+    color: rgba(255, 255, 255, 0.7)
+}
 .user-info__nickname_small,
 .inline-list__item_hub a,
 .post__text-html a,
@@ -150,7 +151,7 @@ a.post__type-label:hover {
 .user-info__nickname_small,
 .voting-wjt__counter_positive,
 .post-stats__comments-count_new,
-.news-topic__attr_comments-new,
+.news-topic__attr_comments-new, 
 .companies-rating__rating,
 .stacked-menu__item-counter,
 .post__title_link:visited,
@@ -262,6 +263,7 @@ a.post__type-label,
     color: var(--text-color);
     border-color: var(--border-color);
 }
+.comment__message p, .comment-form__preview p,
 .company-tweet__text,
 .post-donate__title,
 .search-form__field,
@@ -356,6 +358,7 @@ form .item>label,
 .layout__row_navbar {
     border-color: var(--border-color);
 }
+.comment__head_new-comment,
 .search-form__field,
 .chosen-container-multi .chosen-choices,
 .tm-editor__footer,
@@ -384,6 +387,7 @@ form .item>label,
 .default-block {
     background-color: var(--blue) !important;
 }
+
 .post-donate,
 .topic-form .blue_buttons_panel,
 .switch-light__button, .switch-light input:checked~.switch-light__buttons .switch-light__button:first-child span,
@@ -403,6 +407,7 @@ a.sort-panel__item-toggler.active,
 .toggle-menu__item-link {
     margin: 0;
 }
+.checkbox__label:before, .radio__label:before,
 .companies-rating__img,
 .social-icons__item-link,
 .company-info__image-pic,
@@ -446,6 +451,7 @@ form .item input[type=password], form .item input[type=text], form .item input[t
 .default-block {
     border-radius: var(--border-radius);
 }
+
 .search-field__input[type=text],
 .empty-placeholder,
 .tm-editor_comments,
