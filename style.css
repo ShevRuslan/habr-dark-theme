@@ -97,7 +97,6 @@ a.post__type-label:hover {
 .n-dropdown-menu__item-link_flow,
 .fonts-loaded .teaser__body-title,
 .news-block__title,
-.fonts-loaded .news-topic__title,
 .h-message__title,
 .page-header__stats-value,
 .footer__link:hover,
@@ -751,5 +750,23 @@ hue-6-2: #e6c07b
 }
 
 .post__title:hover a {
+    color: var(--dark-orange);
+}
+
+
+/* Блок "Новости" в ленте */
+
+.content-list__item_news-block {
+    background-color: var(--blue);
+    padding: 15px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-block);
+}
+
+.fonts-loaded .news-topic__title {
+    color: var(--text-color);
+}
+
+.fonts-loaded .news-topic__title:hover {
     color: var(--dark-orange);
 }
