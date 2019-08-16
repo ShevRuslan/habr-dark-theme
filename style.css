@@ -520,7 +520,6 @@ form .item input[type=email],
 .tm-editor_comments,
 .promo-block,
 .company-info_post-additional,
-.post-share,
 .post-donate,
 .default-block {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42) !important;
@@ -782,4 +781,25 @@ hue-6-2: #e6c07b
     margin-bottom: 25px;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-block);
+}
+
+
+/* Пост на странице поста отдельным блоком */
+
+.post__wrapper {
+    background-color: var(--blue);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-block);
+}
+
+.post-stats_post {
+    width: 100%;
+}
+
+.post-stats__item_comments {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
 }
