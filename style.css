@@ -519,13 +519,10 @@ form .item input[type=email],
 .empty-placeholder,
 .tm-editor_comments,
 .promo-block,
-.post-stats,
 .company-info_post-additional,
 .post-share,
 .post-donate,
 .default-block {
-    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42) !important;
-    -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42) !important;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42) !important;
 }
 
@@ -758,7 +755,8 @@ hue-6-2: #e6c07b
 
 .content-list__item_news-block {
     background-color: var(--blue);
-    padding: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-block);
 }
@@ -769,4 +767,19 @@ hue-6-2: #e6c07b
 
 .fonts-loaded .news-topic__title:hover {
     color: var(--dark-orange);
+}
+
+
+/* Посты в ленте отдельными блоками */
+
+.content-list__item_post:first-child {
+    padding-top: 20px;
+}
+
+.content-list__item_post {
+    background-color: var(--blue);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-block);
 }
