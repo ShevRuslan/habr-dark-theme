@@ -6,6 +6,7 @@
     --dark-orange: rgb(199, 149, 1);
     --border-color: rgba(105, 109, 125, 0.4);
     --border-radius: 5px;
+    --shadow-block: 0 0 20px 0 rgba(0, 0, 0, 0.42);
 }
 
 .post__translatation-link:hover {
@@ -535,6 +536,10 @@ form .item input[type=email],
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42) !important;
 }
 
+.toggle-menu__item_pagination:hover {
+    background-color: var(--dark-blue);
+}
+
 
 /* *
 Atom One Dark by Daniel Gamage
@@ -643,7 +648,7 @@ hue-6-2: #e6c07b
 }
 
 .shadow-box {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42);
+    box-shadow: var(--shadow-block);
     background-color: var(--blue);
     border: 1px solid var(--border-color);
 }
@@ -675,4 +680,67 @@ hue-6-2: #e6c07b
 
 .form__field_socials .socials-buttons__button:not(:hover) {
     background-color: var(--dark-blue);
+}
+
+
+/* Фикс цветов уведомлений: https://habr.com/ru/tracker/ */
+
+#tracker-page tr {
+    display: flex;
+}
+
+#tracker-page .tracker-table {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-block);
+    margin-top: 20px;
+}
+
+#tracker-page .tracker-table__row.new,
+#tracker-page tr:first-of-type {
+    background-color: var(--blue);
+}
+
+#tracker-page tr:first-of-type .tracker-table__header:last-child {
+    padding-right: 0;
+    margin-right: 15px;
+    width: inherit;
+}
+
+#tracker-page tr .post_author {
+    padding-left: 0;
+    margin-left: 15px;
+    min-width: 140px;
+}
+
+#tracker-page tr .post_title {
+    flex-grow: 1;
+}
+
+#tracker-page .tracker-table__row.new .post_title>a {
+    color: var(--orange);
+}
+
+#tracker-page .tracker-table__cell.post_title>a {
+    color: var(--text-color);
+}
+
+#tracker-page tr .comment_count {
+    display: flex;
+    align-items: center;
+}
+
+#tracker-page tr .comment_count a:last-of-type {
+    padding-left: 5px;
+}
+
+#tracker-page tr .tracker-table__cell.checkbox {
+    display: flex;
+    align-items: center;
+    padding-right: 0;
+    margin-right: 15px;
+}
+
+#tracker-page tr:last-of-type .tracker-table__cell {
+    border: none;
 }
