@@ -267,6 +267,9 @@ a.post__type-label,
     color: var(--text-color);
     border-color: var(--border-color);
 }
+.form__text-field,
+.form__desc,
+.form__legend,
 .company-app__description,
 .company-app__title,
 .h-info table th, .h-info table td,
@@ -306,6 +309,10 @@ form .item>label,
 .topic-form .blue_buttons_panel {
     padding-left: 0px;
 }
+.user-info__contacts,
+.form__text-field,
+.form__footer,
+.form_bordered,
 .default_block_polling,
 .h-info table,
 .h-info table th, .h-info table td,
@@ -402,7 +409,9 @@ form .item>label,
 .default-block {
     background-color: var(--blue) !important;
 }
-
+.form__text-field,
+.form__footer,
+#tracker-page .tracker-table__row.new,
 .post-donate,
 .topic-form .blue_buttons_panel,
 .switch-light__button, .switch-light input:checked~.switch-light__buttons .switch-light__button:first-child span,
@@ -439,6 +448,8 @@ a.sort-panel__item-toggler.active,
     color: var(--text-color);
     border-color: var(--border-color);
 }
+.form__text-field,
+.form_bordered,
 .btn,
 .post-donate,
 .page-header__banner img,
@@ -468,7 +479,7 @@ form .item input[type=password], form .item input[type=text], form .item input[t
 .default-block {
     border-radius: var(--border-radius);
 }
-
+.form_bordered,
 .search-field__input[type=text],
 .empty-placeholder,
 .tm-editor_comments,
@@ -498,6 +509,7 @@ hue-5-2: #be5046
 hue-6:   #d19a66
 hue-6-2: #e6c07b
 */
+.comment__message pre .hljs,
 .post__text-html pre .hljs {
     display: block;
     overflow-x: auto;
@@ -510,19 +522,26 @@ hue-6-2: #e6c07b
     border-color: var(--border-color); 
     font-family: monospace, monospace !important;
 }
-
+.comment__message pre .hljs-comment,
+.comment__message pre .hljs-quote,
 .post__text-html pre .hljs-comment,
 .post__text-html pre .hljs-quote {
     color: #5c6370;
     font-style: italic;
 }
-
+.comment__message pre .hljs-doctag,
+.comment__message pre .hljs-keyword,
+.comment__message pre .hljs-formula,
 .post__text-html pre .hljs-doctag,
 .post__text-html pre .hljs-keyword,
 .post__text-html pre .hljs-formula {
     color: #c678dd;
 }
-
+.comment__message pre .hljs-section,
+.comment__message pre .hljs-name,
+.comment__message pre .hljs-selector-tag,
+.comment__message pre .hljs-deletion,
+.comment__message pre .hljs-subst,
 .post__text-html pre .hljs-section,
 .post__text-html pre .hljs-name,
 .post__text-html pre .hljs-selector-tag,
@@ -530,11 +549,15 @@ hue-6-2: #e6c07b
 .post__text-html pre .hljs-subst {
     color: #e06c75;
 }
-
+.comment__message pre .hljs-literal,
 .post__text-html pre .hljs-literal {
     color: #56b6c2;
 }
-
+.comment__message pre .hljs-string,
+.comment__message pre .hljs-regexp,
+.comment__message pre .hljs-addition,
+.comment__message pre .hljs-attribute,
+.comment__message pre .hljs-meta-string,
 .post__text-html pre .hljs-string,
 .post__text-html pre .hljs-regexp,
 .post__text-html pre .hljs-addition,
@@ -542,12 +565,20 @@ hue-6-2: #e6c07b
 .post__text-html pre .hljs-meta-string {
     color: #98c379;
 }
-
+.comment__message pre .hljs-class .hljs-title,
+.comment__message pre .hljs-built_in,
 .post__text-html pre .hljs-built_in,
 .post__text-html pre .hljs-class .hljs-title {
     color: #e6c07b;
 }
-
+.comment__message pre .hljs-attr,
+.comment__message pre .hljs-variable,
+.comment__message pre .hljs-template-variable,
+.comment__message pre .hljs-type,
+.comment__message pre .hljs-selector-class,
+.comment__message pre .hljs-selector-attr,
+.comment__message pre .hljs-selector-pseudo,
+.comment__message pre .hljs-number,
 .post__text-html pre .hljs-attr,
 .post__text-html pre .hljs-variable,
 .post__text-html pre .hljs-template-variable,
@@ -558,7 +589,12 @@ hue-6-2: #e6c07b
 .post__text-html pre .hljs-number {
     color: #d19a66;
 }
-
+.comment__message pre .hljs-symbol,
+.comment__message pre .hljs-bullet,
+.comment__message pre .hljs-link,
+.comment__message pre .hljs-meta,
+.comment__message pre .hljs-selector-id,
+.comment__message pre .hljs-title,
 .post__text-html pre .hljs-symbol,
 .post__text-html pre .hljs-bullet,
 .post__text-html pre .hljs-link,
@@ -567,15 +603,15 @@ hue-6-2: #e6c07b
 .post__text-html pre.hljs-title {
     color: #61aeee;
 }
-
+.comment__message pre .hljs-emphasis,
 .post__text-html pre .hljs-emphasis {
     font-style: italic;
 }
-
+.comment__message pre .hljs-strong,
 .post__text-html pre.hljs-strong {
     font-weight: bold;
 }
-
+.comment__message pre .hljs-link,
 .post__text-html pre .hljs-link {
     text-decoration: underline;
 }
