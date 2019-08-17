@@ -6,6 +6,7 @@
     --dark-orange: rgb(199, 149, 1);
     --border-color: rgba(105, 109, 125, 0.4);
     --border-radius: 5px;
+    --shadow-block: 0 0 20px 0 rgba(0, 0, 0, 0.42);
 }
 
 .post__translatation-link:hover {
@@ -55,6 +56,7 @@
 .promo-item:hover {
     background-color: var(--blue);
 }
+
 .app-client__description,
 .defination-list__label,
 .bmenu__label,
@@ -63,9 +65,11 @@
 a.post__type-label:hover {
     color: var(--dark-orange);
 }
+
 .comment__date-time {
     color: rgba(255, 255, 255, 0.7)
 }
+
 .user-info__nickname_small,
 .inline-list__item_hub a,
 .post__text-html a,
@@ -85,6 +89,7 @@ a.post__type-label:hover {
 .stacked-menu__item-link:hover {
     text-decoration: none !important;
 }
+
 .h-info h3,
 .h-page__title,
 .list-snippet__title-link,
@@ -92,8 +97,6 @@ a.post__type-label:hover {
 .n-dropdown-menu__item-link_flow,
 .fonts-loaded .teaser__body-title,
 .news-block__title,
-.fonts-loaded .news-topic__title,
-.post__title_link,
 .h-message__title,
 .page-header__stats-value,
 .footer__link:hover,
@@ -118,8 +121,7 @@ a.post__type-label:hover {
 .post__text-html a:hover,
 .post__text-html a:visited,
 .post__type-label,
-.post-info__meta-label,
-.post__title-text {
+.post-info__meta-label {
     color: var(--orange);
     text-decoration: none;
 }
@@ -137,10 +139,6 @@ a.post__type-label:hover {
     color: var(--dark-orange)
 }
 
-
-.post__title_link:hover {
-    color: var(--dark-orange);
-}
 .default-block__polling-title,
 .h-info h2:nth-child(n+2),
 .company-tweet__username:link,
@@ -154,7 +152,7 @@ a.post__type-label:hover {
 .user-info__nickname_small,
 .voting-wjt__counter_positive,
 .post-stats__comments-count_new,
-.news-topic__attr_comments-new, 
+.news-topic__attr_comments-new,
 .companies-rating__rating,
 .stacked-menu__item-counter,
 .post__title_link:visited,
@@ -176,12 +174,15 @@ a.post__type-label:hover {
 }
 
 #tracker-page .tracker-table__header,
-form .item input[type=password], form .item input[type=text], form .item input[type=email],
+form .item input[type=password],
+form .item input[type=text],
+form .item input[type=email],
 .search-field__input[type=text] {
     background-color: var(--blue);
     border-color: var(--border-color);
     color: var(--text-color);
 }
+
 .default-block__footer_polling,
 .footer-menu__item-link:hover,
 .footer-menu__item-link,
@@ -189,7 +190,8 @@ form .item input[type=password], form .item input[type=text], form .item input[t
 #tracker-page .empty_list,
 #tracker-page .tracker-table__header,
 .topic-form form .item .description,
-.form-checkbox__label, .form-checkbox__fake,
+.form-checkbox__label,
+.form-checkbox__fake,
 .h-form__group-title,
 .notifications-table__cell_label,
 .notifications-table__title-head,
@@ -251,42 +253,55 @@ a.post__type-label,
 .layout__elevator {
     transition: all 0.4s ease-in-out
 }
+
 .n-dropdown-menu__item_border {
     margin-top: 0px;
     border-color: var(--border-color);
     padding-top: 0;
 }
+
 .n-dropdown-menu__item-link {
     border-left: 2px solid transparent;
 }
+
 .n-dropdown-menu__item-link:hover {
     border-left-color: var(--orange);
     background-color: transparent;
 }
-.buttons button:hover, .buttons input[type=button]:hover, .buttons input[type=submit]:hover, .buttons a.button:hover {
+
+.buttons button:hover,
+.buttons input[type=button]:hover,
+.buttons input[type=submit]:hover,
+.buttons a.button:hover {
     color: var(--text-color);
     border-color: var(--border-color);
 }
-.form__text-field,
-.form__desc,
-.form__legend,
+
 .company-app__description,
 .company-app__title,
-.h-info table th, .h-info table td,
+.h-info table th,
+.h-info table td,
 .h-info,
 .h-info code,
-.h-info li, .h-info p,
-.comment__message p, .comment-form__preview p,
+.h-info li,
+.h-info p,
+.comment__message p,
+.comment-form__preview p,
 .company-tweet__text,
 .post-donate__title,
 .search-form__field,
-.topic-form form .item input[type=password], .topic-form form .item input[type=text], .topic-form form .item input[type=email],
+.topic-form form .item input[type=password],
+.topic-form form .item input[type=text],
+.topic-form form .item input[type=email],
 .chosen-container-multi .chosen-choices .search-field input[type=text],
 .chosen-container-multi .chosen-choices,
 .topic-form form .item .checkbox_single label,
 .tm-editor__footer-help a,
 .сm-editor__footer-checkbox,
-.buttons button, .buttons input[type=button], .buttons input[type=submit], .buttons a.button,
+.buttons button,
+.buttons input[type=button],
+.buttons input[type=submit],
+.buttons a.button,
 .app-client__title,
 form .item>label,
 .user_settings .upgrade_settings_form p,
@@ -303,35 +318,42 @@ form .item>label,
     color: var(--text-color);
 }
 
-.tabs-menu__item-text_active, .active .tabs-menu__item-text {
+.tabs-menu__item-text_active,
+.active .tabs-menu__item-text {
     width: 100%;
 }
+
 .topic-form .blue_buttons_panel {
     padding-left: 0px;
 }
-.user-info__contacts,
-.form__text-field,
-.form__footer,
-.form_bordered,
+
 .default_block_polling,
 .h-info table,
-.h-info table th, .h-info table td,
+.h-info table th,
+.h-info table td,
 .post-donate,
 .search-form__field,
 #tracker-page .tracker-table__cell,
 #tracker-page .tracker-table__header,
-.topic-form form .item input[type=password], .topic-form form .item input[type=text], .topic-form form .item input[type=email],
+.topic-form form .item input[type=password],
+.topic-form form .item input[type=text],
+.topic-form form .item input[type=email],
 .chosen-container-multi .chosen-choices,
 .tm-editor__footer-help,
 .tm-editor__footer,
 .tm-editor__post-area,
-.switch-light__button, .switch-light input:checked~.switch-light__buttons .switch-light__button:first-child span,
+.switch-light__button,
+.switch-light input:checked~.switch-light__buttons .switch-light__button:first-child span,
 .wysiwyg-toolbar,
 .tabs-menu__item_devided,
 .tabs-menu__item_devided.active,
 .tm-editor__tabs,
-.topic-form.topic_add, .topic-form.sandbox_edit,
-.buttons button, .buttons input[type=button], .buttons input[type=submit], .buttons a.button,
+.topic-form.topic_add,
+.topic-form.sandbox_edit,
+.buttons button,
+.buttons input[type=button],
+.buttons input[type=submit],
+.buttons a.button,
 .habracaptcha__container,
 .installed-apps__item_divided:first-child,
 .h-form__group-title,
@@ -378,6 +400,7 @@ form .item>label,
 .layout__row_navbar {
     border-color: var(--border-color);
 }
+
 .h-info table thead,
 .h-info code,
 .comment__head_new-comment,
@@ -386,7 +409,10 @@ form .item>label,
 .tm-editor__footer,
 .tabs-menu__item_devided.active,
 .tm-editor__tabs,
-.buttons button, .buttons input[type=button], .buttons input[type=submit], .buttons a.button,
+.buttons button,
+.buttons input[type=button],
+.buttons input[type=submit],
+.buttons a.button,
 .habracaptcha__container,
 .h-form-select__control,
 .h-form-select__control[disabled],
@@ -409,12 +435,11 @@ form .item>label,
 .default-block {
     background-color: var(--blue) !important;
 }
-.form__text-field,
-.form__footer,
-#tracker-page .tracker-table__row.new,
+
 .post-donate,
 .topic-form .blue_buttons_panel,
-.switch-light__button, .switch-light input:checked~.switch-light__buttons .switch-light__button:first-child span,
+.switch-light__button,
+.switch-light input:checked~.switch-light__buttons .switch-light__button:first-child span,
 .n-dropdown-menu,
 .tm-editor__textarea,
 a.sort-panel__item-toggler.active,
@@ -431,34 +456,44 @@ a.sort-panel__item-toggler.active,
 .toggle-menu__item-link {
     margin: 0;
 }
+
 .company-app__image,
-.checkbox__label:before, .radio__label:before,
+.checkbox__label:before,
+.radio__label:before,
 .companies-rating__img,
 .social-icons__item-link,
 .company-info__image-pic,
-.form-checkbox__label:before, .form-checkbox__fake:before,
-.form-checkbox__real:checked+.form-checkbox__label:before, .form-checkbox__real:checked+.form-checkbox__fake:before,
+.form-checkbox__label:before,
+.form-checkbox__fake:before,
+.form-checkbox__real:checked+.form-checkbox__label:before,
+.form-checkbox__real:checked+.form-checkbox__fake:before,
 .app-client__image,
 .media-obj__image-pic,
 .btn_navbar_user-dropdown>img {
     border-radius: 50%;
 }
+
 .h-form-input__control {
     background-color: var(--blue);
     color: var(--text-color);
     border-color: var(--border-color);
 }
-.form__text-field,
-.form_bordered,
+
 .btn,
 .post-donate,
 .page-header__banner img,
 .post__text-html img,
 .post__text-html blockquote,
-.buttons button, .buttons input[type=button], .buttons input[type=submit], .buttons a.button,
+.buttons button,
+.buttons input[type=button],
+.buttons input[type=submit],
+.buttons a.button,
 .habracaptcha__container,
-form .item input[type=password], form .item input[type=text], form .item input[type=email],
-.tm-button_progress, .tm-button_submit,
+form .item input[type=password],
+form .item input[type=text],
+form .item input[type=email],
+.tm-button_progress,
+.tm-button_submit,
 .h-form-input__control,
 .h-form-select__control,
 .empty-placeholder,
@@ -479,20 +514,22 @@ form .item input[type=password], form .item input[type=text], form .item input[t
 .default-block {
     border-radius: var(--border-radius);
 }
-.form_bordered,
+
 .search-field__input[type=text],
 .empty-placeholder,
 .tm-editor_comments,
 .promo-block,
-.post-stats,
 .company-info_post-additional,
-.post-share,
 .post-donate,
 .default-block {
-    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42) !important;
-    -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42) !important;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.42) !important;
 }
+
+.toggle-menu__item_pagination:hover {
+    background-color: var(--dark-blue);
+}
+
+
 /* *
 Atom One Dark by Daniel Gamage
 Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
@@ -509,7 +546,7 @@ hue-5-2: #be5046
 hue-6:   #d19a66
 hue-6-2: #e6c07b
 */
-.comment__message pre .hljs,
+
 .post__text-html pre .hljs {
     display: block;
     overflow-x: auto;
@@ -519,29 +556,22 @@ hue-6-2: #e6c07b
     padding: 0.5em;
     color: #abb2bf;
     background: #282c34;
-    border-color: var(--border-color); 
+    border-color: var(--border-color);
     font-family: monospace, monospace !important;
 }
-.comment__message pre .hljs-comment,
-.comment__message pre .hljs-quote,
+
 .post__text-html pre .hljs-comment,
 .post__text-html pre .hljs-quote {
     color: #5c6370;
     font-style: italic;
 }
-.comment__message pre .hljs-doctag,
-.comment__message pre .hljs-keyword,
-.comment__message pre .hljs-formula,
+
 .post__text-html pre .hljs-doctag,
 .post__text-html pre .hljs-keyword,
 .post__text-html pre .hljs-formula {
     color: #c678dd;
 }
-.comment__message pre .hljs-section,
-.comment__message pre .hljs-name,
-.comment__message pre .hljs-selector-tag,
-.comment__message pre .hljs-deletion,
-.comment__message pre .hljs-subst,
+
 .post__text-html pre .hljs-section,
 .post__text-html pre .hljs-name,
 .post__text-html pre .hljs-selector-tag,
@@ -549,15 +579,11 @@ hue-6-2: #e6c07b
 .post__text-html pre .hljs-subst {
     color: #e06c75;
 }
-.comment__message pre .hljs-literal,
+
 .post__text-html pre .hljs-literal {
     color: #56b6c2;
 }
-.comment__message pre .hljs-string,
-.comment__message pre .hljs-regexp,
-.comment__message pre .hljs-addition,
-.comment__message pre .hljs-attribute,
-.comment__message pre .hljs-meta-string,
+
 .post__text-html pre .hljs-string,
 .post__text-html pre .hljs-regexp,
 .post__text-html pre .hljs-addition,
@@ -565,20 +591,12 @@ hue-6-2: #e6c07b
 .post__text-html pre .hljs-meta-string {
     color: #98c379;
 }
-.comment__message pre .hljs-class .hljs-title,
-.comment__message pre .hljs-built_in,
+
 .post__text-html pre .hljs-built_in,
 .post__text-html pre .hljs-class .hljs-title {
     color: #e6c07b;
 }
-.comment__message pre .hljs-attr,
-.comment__message pre .hljs-variable,
-.comment__message pre .hljs-template-variable,
-.comment__message pre .hljs-type,
-.comment__message pre .hljs-selector-class,
-.comment__message pre .hljs-selector-attr,
-.comment__message pre .hljs-selector-pseudo,
-.comment__message pre .hljs-number,
+
 .post__text-html pre .hljs-attr,
 .post__text-html pre .hljs-variable,
 .post__text-html pre .hljs-template-variable,
@@ -589,12 +607,7 @@ hue-6-2: #e6c07b
 .post__text-html pre .hljs-number {
     color: #d19a66;
 }
-.comment__message pre .hljs-symbol,
-.comment__message pre .hljs-bullet,
-.comment__message pre .hljs-link,
-.comment__message pre .hljs-meta,
-.comment__message pre .hljs-selector-id,
-.comment__message pre .hljs-title,
+
 .post__text-html pre .hljs-symbol,
 .post__text-html pre .hljs-bullet,
 .post__text-html pre .hljs-link,
@@ -603,15 +616,190 @@ hue-6-2: #e6c07b
 .post__text-html pre.hljs-title {
     color: #61aeee;
 }
-.comment__message pre .hljs-emphasis,
+
 .post__text-html pre .hljs-emphasis {
     font-style: italic;
 }
-.comment__message pre .hljs-strong,
+
 .post__text-html pre.hljs-strong {
     font-weight: bold;
 }
-.comment__message pre .hljs-link,
+
 .post__text-html pre .hljs-link {
     text-decoration: underline;
+}
+
+
+/* Оформление страницы авторизации */
+
+.layout {
+    background-color: var(--dark-blue)
+}
+
+.shadow-box {
+    box-shadow: var(--shadow-block);
+    background-color: var(--blue);
+    border: 1px solid var(--border-color);
+}
+
+.shadow-box__title,
+.form__field-label,
+.form-additional-message {
+    color: var(--text-color);
+}
+
+#login_form .button_primary {
+    background-color: var(--dark-orange);
+    color: var(--dark-blue);
+    font-weight: bold;
+    transition: background-color 200ms ease-out;
+}
+
+#login_form .button_primary:hover {
+    color: var(--dark-blue);
+    background-color: var(--orange);
+}
+
+#login_form .form__field-input {
+    color: var(--text-color);
+    background-color: var(--dark-blue);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+.form__field_socials .socials-buttons__button:not(:hover) {
+    background-color: var(--dark-blue);
+}
+
+
+/* Фикс цветов уведомлений: https://habr.com/ru/tracker/ */
+
+#tracker-page tr {
+    display: flex;
+}
+
+#tracker-page .tracker-table {
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-block);
+    margin-top: 20px;
+}
+
+#tracker-page .tracker-table__row.new,
+#tracker-page tr:first-of-type {
+    background-color: var(--blue);
+}
+
+#tracker-page tr:first-of-type .tracker-table__header:last-child {
+    padding-right: 0;
+    margin-right: 15px;
+    width: inherit;
+}
+
+#tracker-page tr .post_author {
+    padding-left: 0;
+    margin-left: 15px;
+    min-width: 140px;
+}
+
+#tracker-page tr .post_title {
+    flex-grow: 1;
+}
+
+#tracker-page .tracker-table__row.new .post_title>a {
+    color: var(--orange);
+}
+
+#tracker-page .tracker-table__cell.post_title>a {
+    color: var(--text-color);
+}
+
+#tracker-page tr .comment_count {
+    display: flex;
+    align-items: center;
+}
+
+#tracker-page tr .comment_count a:last-of-type {
+    padding-left: 5px;
+}
+
+#tracker-page tr .tracker-table__cell.checkbox {
+    display: flex;
+    align-items: center;
+    padding-right: 0;
+    margin-right: 15px;
+}
+
+#tracker-page tr:last-of-type .tracker-table__cell {
+    border: none;
+}
+
+
+/* Белый заголовок в статье */
+
+.post__title-text {
+    color: var(--text-color);
+}
+
+.post__title a {
+    color: var(--text-color);
+}
+
+.post__title:hover a {
+    color: var(--dark-orange);
+}
+
+
+/* Блок "Новости" в ленте */
+
+.content-list__item_news-block {
+    background-color: var(--blue);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-block);
+}
+
+.fonts-loaded .news-topic__title {
+    color: var(--text-color);
+}
+
+.fonts-loaded .news-topic__title:hover {
+    color: var(--dark-orange);
+}
+
+
+/* Посты в ленте отдельными блоками */
+
+.content-list__item_post:first-child {
+    padding-top: 20px;
+}
+
+.content-list__item_post {
+    background-color: var(--blue);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-block);
+}
+
+
+/* Пост на странице поста отдельным блоком */
+
+.post__wrapper {
+    background-color: var(--blue);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-block);
+}
+
+.post-stats_post {
+    width: 100%;
+}
+
+.post-stats__item_comments {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
 }
