@@ -277,6 +277,13 @@ a.post__type-label,
     border-color: var(--border-color);
 }
 
+#allrecords * {
+    color: var(--text-color) !important;
+}
+#allrecords .rendered {
+    background-color: var(--dark-blue) !important;
+}
+.search-field__select,
 .company-app__description,
 .company-app__title,
 .h-info table th,
@@ -326,7 +333,7 @@ form .item>label,
 .topic-form .blue_buttons_panel {
     padding-left: 0px;
 }
-
+.search-field__select,
 .default_block_polling,
 .h-info table,
 .h-info table th,
@@ -400,7 +407,7 @@ form .item>label,
 .layout__row_navbar {
     border-color: var(--border-color);
 }
-
+.search-field__select,
 .h-info table thead,
 .h-info code,
 .comment__head_new-comment,
@@ -435,7 +442,7 @@ form .item>label,
 .default-block {
     background-color: var(--blue) !important;
 }
-
+#allrecords,
 .post-donate,
 .topic-form .blue_buttons_panel,
 .switch-light__button,
@@ -514,7 +521,7 @@ form .item input[type=email],
 .default-block {
     border-radius: var(--border-radius);
 }
-
+.search-field__select,
 .search-field__input[type=text],
 .empty-placeholder,
 .tm-editor_comments,
