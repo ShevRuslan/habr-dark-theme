@@ -548,6 +548,15 @@ form .item input[type=email],
     background-color: var(--dark-gray);
 }
 
+.author-panel__user-info {
+    border-top: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+    background-color: var(--gray) !important;
+}
+
+.company_post .promo-block_vacancies {
+    background-color: var(--gray) !important;
+}
 
 /* *
 Atom One Dark by Daniel Gamage
