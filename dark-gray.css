@@ -253,9 +253,17 @@ form .item input[type=email],
 .fonts-loaded .post-info__title,
 .icon-svg_logo-habrahabr,
 .nav-links__item a,
-.post__text-html {
+.post__text-html,
+.news-block__title-link,
+.news-topic__title,
+.partner-info__title,
+.partner-info__description {
     color: var(--text-color);
     text-decoration: none;
+}
+
+.teaser__body-title {
+    color: var(--text-color) !important;
 }
 
 a.post__type-label,
@@ -451,9 +459,11 @@ form .item>label,
 .layout__row_services #TMpanel,
 .layout__row_navbar,
 .layout__elevator:hover,
-.default-block {
+.default-block,
+.partner-info {
     background-color: var(--gray) !important;
 }
+
 #allrecords,
 .post-donate,
 .topic-form .gray_buttons_panel,
@@ -554,7 +564,7 @@ form .item input[type=email],
     background-color: var(--gray) !important;
 }
 
-.company_post .promo-block_vacancies {
+.promo-block {
     background-color: var(--gray) !important;
 }
 
